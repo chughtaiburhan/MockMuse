@@ -8,7 +8,7 @@ const navLinks = [
 	title: "About Us",
  },
  {
-	id: "work",
+	id: "art",
 	title: "The Art",
  },
  {
@@ -18,57 +18,69 @@ const navLinks = [
 ];
 
 const cocktailLists = [
- {
-	name: "Chapel Hill Shiraz",
-	country: "AU",
-	detail: "Battle",
-	price: "$10",
- },
- {
-	name: "Caten Malbee",
-	country: "AU",
-	detail: "Battle",
-	price: "$49",
- },
- {
-	name: "Rhino Pale Ale",
-	country: "CA",
-	detail: "750 ml",
-	price: "$20",
- },
- {
-	name: "Irish Guinness",
-	country: "IE",
-	detail: "600 ml",
-	price: "$29",
- },
+  {
+    name: "Karak Sunset",
+    country: "Pakistan",
+    detail: "250 ml",
+    price: "₨350",
+  },
+  {
+    name: "Spiced Citrus Flame",
+    country: "Pakistan",
+    detail: "300 ml",
+    price: "₨420",
+  },
+  {
+    name: "Berry Whisper",
+    country: "Pakistan",
+    detail: "500 ml",
+    price: "₨480",
+  },
+  {
+    name: "Pomegranate Crush",
+    country: "Pakistan",
+    detail: "330 ml",
+    price: "₨390",
+  },
+  {
+    name: "Midnight Plum Spark",
+    country: "Pakistan",
+    detail: "275 ml",
+    price: "₨440",
+  },
 ];
 
 const mockTailLists = [
- {
-	name: "Tropical Bloom",
-	country: "US",
-	detail: "Battle",
-	price: "$10",
- },
- {
-	name: "Passionfruit Mint",
-	country: "US",
-	detail: "Battle",
-	price: "$49",
- },
- {
-	name: "Citrus Glow",
-	country: "CA",
-	detail: "750 ml",
-	price: "$20",
- },
- {
-	name: "Lavender Fizz",
-	country: "IE",
-	detail: "600 ml",
-	price: "$29",
- },
+  {
+    name: "Minty Limelight",
+    country: "Pakistan",
+    detail: "350 ml",
+    price: "₨320",
+  },
+  {
+    name: "Rose Lemon Drift",
+    country: "Pakistan",
+    detail: "250 ml",
+    price: "₨300",
+  },
+  {
+    name: "Tamarind Burst",
+    country: "Pakistan",
+    detail: "500 ml",
+    price: "₨370",
+  },
+  {
+    name: "Mango Mirage",
+    country: "Pakistan",
+    detail: "450 ml",
+    price: "₨400",
+  },
+  {
+    name: "Lychee Zeal",
+    country: "Pakistan",
+    detail: "275 ml",
+    price: "₨360",
+  },
 ];
 
 const profileLists = [
@@ -120,17 +132,17 @@ const socials = [
  {
 	name: "Instagram",
 	icon: "/images/insta.png",
-	url: "#",
+	url: "https://www.instagram.com/",
  },
  {
 	name: "X (Twitter)",
 	icon: "/images/x.png",
-	url: "#",
+	url: "https://x.com/",
  },
  {
 	name: "Facebook",
 	icon: "/images/fb.png",
-	url: "#",
+	url: "https://www.facebook.com/",
  },
 ];
 
